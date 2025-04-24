@@ -1,0 +1,4 @@
+com\adh\afetdestekhelp\AfetDestekHelpApplication.class
+com\adh\afetdestekhelp\repository\HelpRequestRepository.class
+com\adh\afetdestekhelp\model\HelpRequest.class
+com\adh\afetdestekhelp\controller\HelpRequestController.class
