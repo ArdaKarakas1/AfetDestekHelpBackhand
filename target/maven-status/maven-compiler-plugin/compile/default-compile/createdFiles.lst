@@ -1,4 +1,10 @@
-com\adh\afetdestekhelp\AfetDestekHelpApplication.class
+com\adh\afetdestekhelp\model\ChannelMembership.class
 com\adh\afetdestekhelp\repository\HelpRequestRepository.class
+com\adh\afetdestekhelp\controller\ChannelMembershipController.class
 com\adh\afetdestekhelp\model\HelpRequest.class
+com\adh\afetdestekhelp\controller\ChannelRegistrationController.class
+com\adh\afetdestekhelp\AfetDestekHelpApplication.class
+com\adh\afetdestekhelp\model\ChannelRegistration.class
+com\adh\afetdestekhelp\repository\ChannelRegistrationRepository.class
+com\adh\afetdestekhelp\repository\ChannelMembershipRepository.class
 com\adh\afetdestekhelp\controller\HelpRequestController.class

@@ -1,5 +1,5 @@
+// HelpRequestController.java
 package com.adh.afetdestekhelp.controller;
-
 
 import com.adh.afetdestekhelp.model.HelpRequest;
 import com.adh.afetdestekhelp.repository.HelpRequestRepository;
@@ -14,15 +14,20 @@ import java.util.List;
 public class HelpRequestController {
 
     @Autowired
-    private HelpRequestRepository helpRequestRepository;
+    private HelpRequestRepository repository;
 
     @PostMapping
-    public HelpRequest receiveHelpRequest(@RequestBody HelpRequest request) {
-        return helpRequestRepository.save(request);
-    }
-    @GetMapping
-    public List<HelpRequest> getAllRequests() {
-        return helpRequestRepository.findAll();
+    public HelpRequest submitHelpRequest(@RequestBody HelpRequest helpRequest) {
+        return repository.save(helpRequest);
     }
 
+    @GetMapping
+    public List<HelpRequest> getAllHelpRequests() {
+        return repository.findAll();
+    }
+
+    @GetMapping("/{id}")
+    public HelpRequest getHelpRequestById(@PathVariable Long id) {
+        return repository.findById(id).orElse(null);
+    }
 }

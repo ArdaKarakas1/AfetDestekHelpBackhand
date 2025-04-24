@@ -1,3 +1,4 @@
+// HelpRequestRepository.java
 package com.adh.afetdestekhelp.repository;
 
 import com.adh.afetdestekhelp.model.HelpRequest;

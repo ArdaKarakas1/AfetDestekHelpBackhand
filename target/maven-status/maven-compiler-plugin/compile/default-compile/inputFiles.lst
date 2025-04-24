@@ -1,4 +1,10 @@
 I:\AfetDestekHelp\AfetDestekHelp\src\main\java\com\adh\afetdestekhelp\AfetDestekHelpApplication.java
+I:\AfetDestekHelp\AfetDestekHelp\src\main\java\com\adh\afetdestekhelp\controller\ChannelMembershipController.java
+I:\AfetDestekHelp\AfetDestekHelp\src\main\java\com\adh\afetdestekhelp\controller\ChannelRegistrationController.java
 I:\AfetDestekHelp\AfetDestekHelp\src\main\java\com\adh\afetdestekhelp\controller\HelpRequestController.java
+I:\AfetDestekHelp\AfetDestekHelp\src\main\java\com\adh\afetdestekhelp\model\ChannelMembership.java
+I:\AfetDestekHelp\AfetDestekHelp\src\main\java\com\adh\afetdestekhelp\model\ChannelRegistration.java
 I:\AfetDestekHelp\AfetDestekHelp\src\main\java\com\adh\afetdestekhelp\model\HelpRequest.java
+I:\AfetDestekHelp\AfetDestekHelp\src\main\java\com\adh\afetdestekhelp\repository\ChannelMembershipRepository.java
+I:\AfetDestekHelp\AfetDestekHelp\src\main\java\com\adh\afetdestekhelp\repository\ChannelRegistrationRepository.java
 I:\AfetDestekHelp\AfetDestekHelp\src\main\java\com\adh\afetdestekhelp\repository\HelpRequestRepository.java
